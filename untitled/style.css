@@ -1,0 +1,41 @@
+h1{
+    background-color: saddlebrown; /*tausta värv*/
+    color: bisque; /*teksti värv*/
+
+}
+header, footer{
+    font-family: georgia;
+    font-size: large;
+    width: 60%;
+    border: 5px solid grey; /*dashed, dotted, double, outline*/
+    background-color: saddlebrown;
+    border-radius: 20px;
+    padding:1%; /*vahe teksti ja piiri vahel*/
+}
+nav ul{
+    list-style-type: none;
+    text-align: center; /*teksti joondamine keskele*/
+    margin: 2px;
+    padding: 0;
+    background-color: saddlebrown;
+}
+nav li{
+    float: left;
+    padding: 1%;
+}
+main {
+    margin: 50px;
+    padding: 1%;
+}
+nav a:hover{ /*link fookuses*/
+    background-color: saddlebrown;
+}
+nav a{
+    font-family: georgia;
+    font-size: large;
+    text-decoration: none;
+    border-right: 1pt solid grey;
+    border-left: 1pt solid grey;
+    border-radius: 120px;
+    padding : 10px;
+}
