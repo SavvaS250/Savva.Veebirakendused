@@ -1,0 +1,284 @@
+/************table id = lihtne**************/
+#lihtne{
+    width: 60%;
+    border: 1px solid black;
+    height: 200px;
+    border-collapse: collapse; /*üks joon borderis*/
+}
+#lihtne td{
+    border: 1px solid black;
+    text-align: center;
+}
+/*pseudostiilide kasutamine*/
+#lihtne tr:nth-child(1) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: red;
+}
+#lihtne tr:nth-child(1) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: orange;
+}
+#lihtne tr:nth-child(2) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: dimgray;
+}
+#lihtne tr:nth-child(2) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: darkred;
+}
+/************table id = keeruline1**************/
+#keeruline1{
+    width: 40%;
+    border: 1px solid black;
+    height: 150px;
+    border-collapse: collapse; /*üks joon borderis*/
+}
+#keeruline1 td{
+    border: 1px solid black;
+    text-align: center;
+}
+/*pseudostiilide kasutamine*/
+#keeruline1 tr:nth-child(1) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: red;
+}
+#keeruline1 tr:nth-child(1) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: orange;
+}
+#keeruline1 tr:nth-child(2) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: dimgray;
+}
+#keeruline1 tr:nth-child(2) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: darkred;
+}
+/************table id = keeruline2**************/
+#keeruline2{
+    width: 40%;
+    border: 1px solid black;
+    height: 150px;
+    border-collapse: collapse; /*üks joon borderis*/
+}
+#keeruline2 td{
+    border: 1px solid black;
+    text-align: center;
+
+}
+/*pseudostiilide kasutamine*/
+#keeruline2 tr:nth-child(1) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: red;
+}
+#keeruline2 tr:nth-child(1) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: orange;
+}
+#keeruline2 tr:nth-child(2) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: dimgray;
+}
+#keeruline2 tr:nth-child(2) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: darkred;
+}
+/************table id = keeruline3**************/
+#keeruline3{
+    width: 20%;
+    border: 1px solid black;
+    height: 150px;
+    border-collapse: collapse; /*üks joon borderis*/
+}
+#keeruline3 td{
+    border: 1px solid black;
+    text-align: center;
+}
+/*pseudostiilide kasutamine*/
+#keeruline3 tr:nth-child(1) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: red;
+}
+#keeruline3 tr:nth-child(1) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: orange;
+}
+#keeruline3 tr:nth-child(2) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: dimgray;
+}
+#keeruline3 tr:nth-child(2) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: darkred;
+}
+#keeruline3 tr:nth-child(2) td:nth-child(3){ /*esimene rida, esimene lahter*/
+    background-color: seagreen;
+}
+#keeruline3 tr:nth-child(3) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: purple;
+}
+#keeruline3 tr:nth-child(3) td:nth-child(2){
+    background-color: brown;
+}
+#keeruline3 tr:nth-child(4) td:nth-child(1){
+    background-color: blue;
+}
+/************table id = keeruline4**************/
+#keeruline4{
+    width: 60%;
+    border: 1px solid black;
+    height: 200px;
+    border-collapse: collapse; /*üks joon borderis*/
+}
+#keeruline4 td{
+    border: 1px solid black;
+    text-align: center;
+}
+/************table id = keeruline5**************/
+#keeruline5{
+    width: 10%;
+    border: 1px solid black;
+    height: 100px;
+    border-collapse: collapse; /*üks joon borderis*/
+}
+#keeruline5 td{
+    border: 1px solid black;
+    text-align: center;
+}
+/*pseudostiilide kasutamine*/
+#keeruline5 tr:nth-child(1) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: red;
+}
+#keeruline5 tr:nth-child(1) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: orange;
+}
+#keeruline5 tr:nth-child(1) td:nth-child(3){ /*esimene rida, esimene lahter*/
+    background-color: dimgray;
+}
+#keeruline5 tr:nth-child(1) td:nth-child(4){ /*esimene rida, esimene lahter*/
+    background-color: darkred;
+}
+#keeruline5 tr:nth-child(1) td:nth-child(5){ /*esimene rida, esimene lahter*/
+    background-color: seagreen;
+}
+#keeruline5 tr:nth-child(2) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: purple;
+}
+#keeruline5 tr:nth-child(2) td:nth-child(2){
+    background-color: brown;
+}
+#keeruline5 tr:nth-child(2) td:nth-child(3){
+    background-color: blue;
+}
+#keeruline5 tr:nth-child(3) td:nth-child(1){
+    background-color: yellow;
+}
+#keeruline5 tr:nth-child(3) td:nth-child(2){
+    background-color: navy;
+}
+#keeruline5 tr:nth-child(3) td:nth-child(3){
+    background-color: lightgreen;
+}
+#keeruline5 tr:nth-child(4) td:nth-child(1){
+    background-color: lightpink;
+}
+#keeruline5 tr:nth-child(4) td:nth-child(2){
+    background-color: peachpuff;
+}
+#keeruline5 tr:nth-child(4) td:nth-child(3){
+    background-color: violet;
+}
+#keeruline5 tr:nth-child(4) td:nth-child(4){
+    background-color: darkorange;
+}
+#keeruline5 tr:nth-child(5) td:nth-child(1){
+    background-color: greenyellow;
+}
+
+#keeruline6{
+    width: 10%;
+    border: 1px solid black;
+    height: 100px;
+    border-collapse: collapse; /*üks joon borderis*/
+}
+#keeruline6 td{
+    border: 1px solid black;
+    text-align: center;
+}
+#keeruline6 tr:nth-child(1) td:nth-child(2){
+    background-color: white;
+    border-top-color: white;
+    border-right-color: white;
+}
+#keeruline6 tr:nth-child(1) td:nth-child(3){
+    background-color: white;
+    border-color: white;
+}
+#keeruline6 tr:nth-child(1) td:nth-child(4){
+    background-color: white;
+    border-top-color: white;
+}
+#keeruline6 tr:nth-child(1) td:nth-child(5){
+    background-color: orange;
+    border-color: black;
+}
+#keeruline6 tr:nth-child(1) td:nth-child(1){
+    background-color: orange;
+    border-color: black;
+}
+#keeruline6 tr:nth-child(2) td:nth-child(1){
+    background-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+}
+#keeruline6 tr:nth-child(2) td:nth-child(5){
+    background-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+}
+#keeruline6 tr:nth-child(3) td:nth-child(1){
+    background-color: white;
+    border-color: white;
+}
+#keeruline6 tr:nth-child(3) td:nth-child(5){
+    background-color: white;
+    border-color: white;
+}
+#keeruline6 tr:nth-child(3) td:nth-child(4){
+    background-color: white;
+    border-right-color: white;
+}
+#keeruline6 tr:nth-child(4) td:nth-child(1){
+    background-color: white;
+    border-left-color: white;
+}
+#keeruline6 tr:nth-child(4) td:nth-child(5){
+    background-color: white;
+    border-right-color: white;
+}
+#keeruline6 tr:nth-child(4) td:nth-child(3){
+    background-color: white;
+    border-bottom-color: white;
+}
+#keeruline6 tr:nth-child(5) td:nth-child(2){
+    background-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+}
+#keeruline6 tr:nth-child(5) td:nth-child(3){
+    background-color: white;
+    border-color: white;
+}
+#keeruline6 tr:nth-child(5) td:nth-child(4){
+    background-color: white;
+    border-bottom-color: white;
+}
+#keeruline6 tr:nth-child(2) td:nth-child(2){
+    background-color: orange;
+    border-color: black;
+}
+#keeruline6 tr:nth-child(2) td:nth-child(4){
+    background-color: orange;
+    border-color: black;
+}#keeruline6 tr:nth-child(3) td:nth-child(3){
+     background-color: orange;
+     border-color: black;
+ }
+#keeruline6 tr:nth-child(4) td:nth-child(2){
+    background-color: orange;
+    border-color: black;
+}#keeruline6 tr:nth-child(4) td:nth-child(4){
+     background-color: orange;
+     border-color: black;
+ }
+#keeruline6 tr:nth-child(5) td:nth-child(1){
+    background-color: orange;
+    border-color: black;
+}#keeruline6 tr:nth-child(5) td:nth-child(5){
+     background-color: orange;
+     border-color: black;
+ }
