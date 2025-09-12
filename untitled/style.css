@@ -1,23 +1,30 @@
 h1{
-    background-color: saddlebrown; /*tausta värv*/
-    color: bisque; /*teksti värv*/
+    background-color: purple; /*tausta värv*/
+    color: dimgrey; /*teksti värv*/
 
 }
 header, footer{
     font-family: georgia;
     font-size: large;
-    width: 60%;
+    width: 100%;
     border: 5px solid grey; /*dashed, dotted, double, outline*/
-    background-color: saddlebrown;
+    background-color: purple;
     border-radius: 20px;
-    padding:1%; /*vahe teksti ja piiri vahel*/
+    padding:2%; /*vahe teksti ja piiri vahel*/
+    color:dimgrey;
 }
 nav ul{
     list-style-type: none;
     text-align: center; /*teksti joondamine keskele*/
     margin: 2px;
-    padding: 0;
-    background-color: saddlebrown;
+    padding: 2%;
+
+}
+footer #f1{
+   position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
 }
 nav li{
     float: left;
@@ -28,7 +35,7 @@ main {
     padding: 1%;
 }
 nav a:hover{ /*link fookuses*/
-    background-color: saddlebrown;
+    background-color: purple;
 }
 nav a{
     font-family: georgia;
@@ -39,3 +46,142 @@ nav a{
     border-radius: 120px;
     padding : 10px;
 }
+/*********************************section**************************/
+section#osa1{
+    display: block;
+    width: 31%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+section#osa1 h3{
+    text-align: center;
+    background-color: purple;
+    border-radius: 60px;
+    color: dimgrey;
+    padding: 2%;
+
+}
+section#osa2{
+    display: block;
+    width: 31%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+section#osa2 h3{
+    text-align: center;
+    background-color: purple;
+    border-radius: 60px;
+    color: dimgrey;
+    padding: 2%;
+
+}
+section#osa3{
+    display: block;
+    width: 31%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
+    margin-left: -50px;
+
+}
+section#osa3 h3{
+    text-align: center;
+    background-color: purple;
+    border-radius: 60px;
+    color: dimgrey;
+    padding: 2%;
+
+}
+section#pildigaleri{
+    display: block;
+    width: 40%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
+    margin-left: -50px;
+
+}
+section#pildigaleri h3{
+    text-align: center;
+    background-color: purple;
+    border-radius: 60px;
+    color: dimgrey;
+    padding: 2%;
+
+}
+section#video{
+    display: block;
+    width: 70%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
+    margin-left: -50px;
+
+}
+section#video h3{
+    text-align: center;
+    background-color: purple;
+    border-radius: 60px;
+    color: dimgrey;
+    padding: 2%;
+
+}
+section#audio{
+    display: block;
+    width: 80%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
+    margin-left: -50px;
+
+}
+section#audio h3{
+    text-align: center;
+    background-color: purple;
+    border-radius: 60px;
+    color: dimgrey;
+    padding: 2%;
+
+}
+section#kaart{
+    display: block;
+    width: 75%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 60px;
+    padding: 2%;
+    margin-top: 10px;
+    margin-left: -50px;
+
+}
+section#kaart h3{
+    text-align: center;
+    background-color: purple;
+    border-radius: 60px;
+    color: dimgrey;
+    padding: 2%;
+
+}
+
+
+
+
+
+
+
