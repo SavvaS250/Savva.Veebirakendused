@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Pildikaart map/kaart kasutamine</title>
+    <link rel="stylesheet" href="majaStyle.css">
+</head>
+<body>
+
+<h1> Maja pildikaart</h1>
+<h3> Hiire klik akna, seina, katuse, korstna, pilve, päikse, palli ja ukse peale</h3>
+<img src="Majake.png" alt="ilus majake" usemap="#maja">
+<map name="maja">
+    <!--aken- ring coords (x,y,raadius) -->
+    <area shape="circle" coords="137,152,28" href="aken.html" alt="Aken">
+    <!-- sein - rect coords (x, y, x1, y1) -->
+    <area shape="rect" coords="79,104,199,214" href="sein.html" alt="Sein">
+    <!-- katus - polügon - poly coords (kõik koordinadid vasakult paremale) -->
+    <area shape="poly" coords="9,107,107,4,238,105" href="katus.html" alt="Katus">
+    <area shape="poly" coords="162,31,166,11,197,12,192,46" href="korsten.html" alt="Korsten">
+    <area shape="circle" coords="306,197,15" href="pall.html" alt="Pall">
+    <area shape="rect" coords="409,192,430,218" href="iphone.html" alt="Iphone">
+    <area shape="circle" coords="560,21,20" href="paike.html" alt="Päike">
+    <area shape="poly" coords="305,52,305,13,367,22,425,25,457,26,457,47" href="pilv.html" alt="Pilv">
+</map>
+<div id="ala">
+    iPhone on nutitelefon, mida toodab arvuti- ja tarkvarafirma Apple. iPhone töötab kaameratelefonina, kaasaskantava video- ja muusikamängijana ning selle abil on võimalik e-posti lugeda ja internetti kasutada.
+    <br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Apple_iphone.png/300px-Apple_iphone.png" alt="iphone">
+
+</div>
+<div id="nupp">
+    <a href="https://savvasmirnyagin24.thkit.ee/tood.html">avalehele</a>
+</div>
+</body>
+</html>

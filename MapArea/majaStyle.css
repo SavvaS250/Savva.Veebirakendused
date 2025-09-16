@@ -1,0 +1,41 @@
+h1{
+font-family: Times New Roman;
+    color: purple;
+}
+h3{
+    font-family: times New Roman;
+    color:purple;
+
+}
+div#ala{
+    background-color: purple;
+    color: white;
+    padding: 2%;
+    width: 30%;
+    height: 300px;
+    position: absolute;
+    left: 600px;
+    top: 50px;
+    border-radius: 20px;
+    text-align: left;
+    border: 3px solid black;
+}
+div#nupp{
+    background-color: purple;
+    color: white;
+    padding: 2%;
+    width: 7%;
+    height: 10px;
+    position: absolute;
+    left: 6px;
+    top: 500px;
+    border-radius: 20px;
+    text-align: left;
+    border: 3px solid black;
+}
+
+
+
+
+
+
