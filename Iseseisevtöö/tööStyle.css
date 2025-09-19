@@ -1,0 +1,170 @@
+#Tabel1{
+    width: 30%;
+    border: 1px solid black;
+    height: 120px;
+    border-collapse: separate /*üks joon borderis*/
+}
+#Tabel1 td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+#Tabel2{
+    width: 35%;
+    border: 1px solid black;
+    height: 250px;
+    border-collapse: separate; /*üks joon borderis*/
+}
+#Tabel2 td{
+    border: 1px solid black;
+    text-align: center;
+}
+#Tabel2 tr:nth-child(1) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: red;
+    color :gold;
+}
+#Tabel2 tr:nth-child(1) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: orange;
+    color :gold;
+}
+#Tabel2 tr:nth-child(2) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: dimgray;
+    color :gold;
+}
+#Tabel2 tr:nth-child(2) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: darkred;
+    color :gold;
+}
+#Tabel2 tr:nth-child(1) td:nth-child(3){ /*esimene rida, esimene lahter*/
+     background-color: red;
+        color :gold;
+ }
+#Tabel2 tr:nth-child(2) td:nth-child(3){ /*esimene rida, esimene lahter*/
+    background-color: orange;
+    color :gold;
+}
+#Tabel2 tr:nth-child(3) td:nth-child(3){ /*esimene rida, esimene lahter*/
+    background-color: dimgray;
+    color :gold;
+}
+#Tabel2 tr:nth-child(3) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: darkred;
+    color :gold;
+}
+#Tabel2 tr:nth-child(3) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: darkred;
+    color :gold;
+}
+
+#Tabel1 tr:nth-child(1) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: red;
+    color : white;
+}
+#Tabel1 tr:nth-child(1) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: orange;
+    color : white; /* added color property */
+}
+#Tabel1 tr:nth-child(2) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: dimgray;
+    color : white; /* added color property */
+}
+#Tabel1 tr:nth-child(2) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: darkred;
+    color : white; /* added color property */
+}
+#Tabel1 tr:nth-child(1) td:nth-child(3){ /*esimene rida, esimene lahter*/
+    background-color: red;
+    color : white; /* added color property */
+}
+#Tabel1 tr:nth-child(2) td:nth-child(3){ /*esimene rida, esimene lahter*/
+    background-color: orange;
+    color : white; /* added color property */
+}
+#Tabel1 tr:nth-child(3) td:nth-child(3){ /*esimene rida, esimene lahter*/
+    background-color: dimgray;
+    color : white; /* added color property */
+}
+#Tabel1 tr:nth-child(3) td:nth-child(2){ /*esimene rida, esimene lahter*/
+    background-color: darkred;
+    color : white; /* added color property */
+}
+#Tabel1 tr:nth-child(3) td:nth-child(1){ /*esimene rida, esimene lahter*/
+    background-color: darkred;
+    color : white; /* added color property */
+}
+
+h1{
+    color: darkred;
+    background-color: grey;
+}
+
+#d1{
+    border: 2px solid black;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+}
+#d2{
+background-color: green;
+    color: orange;
+    width: 10%;
+}
+#d3{
+border: 2px solid black;
+    color: purple;
+    width: 20%;
+}
+#d4{
+background-color: orange;
+    color: green;
+    width: 30%;
+}
+#Tabel3{
+    background-color: yellow;
+    border: 1px solid black;
+    border-collapse: separate;
+}
+#P1{
+    font-family: Arial;
+    font-size: 20px;
+    color: blue;
+    background-color: black;
+}
+#ruut{
+    background-color: lightblue;
+    width: 100px;
+    color: white;
+}
+ul{
+    background-color: lightgreen;
+    width: 200px;
+    color: darkblue;
+}
+#I{
+    color: red;
+    background-color: lightgray;
+}
+ol{
+    background-color: lightyellow;
+    width: 150px;
+    color: darkgreen;
+}
+h3 {
+    color: darkblue;
+    background-color: lightgray;}
+h4{
+    color: darkgreen;
+    background-color: hotpink;
+}
+h2{
+    color: white;
+    background-color: black;
+    width: 10%;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+h5{
+    color: olive;
+    background-color: blue;
+}
