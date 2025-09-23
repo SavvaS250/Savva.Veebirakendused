@@ -1,0 +1,36 @@
+fieldset{
+    width: 200px;
+    border-radius: 10px;
+}
+legend,label{
+    font-weight: bold;
+    font-family: Verdana sans-serif;
+}
+input[type="text"],input[type="number"]{
+    padding: 1%;
+    border-radius: 10px;
+    border-bottom: 2px solid purple;
+    border-left: 2px solid purple;
+    border-right: 2px solid purple;
+    border-top: 2px solid purple;
+}
+input[type="reset"],input[type="button"], button, input[type="tel"], input[type="file"], input[type="date"], input[type="email"]{
+    padding: 1%;
+    border-radius: 10px;
+    border-bottom: 2px solid purple;
+    border-left: 2px solid purple;
+    border-right: 2px solid purple;
+    border-top: 2px solid purple;
+}
+button img{
+    width: 70px;
+}
+input[type=radio]+label:hover{
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+
