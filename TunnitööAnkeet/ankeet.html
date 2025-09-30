@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Õpilase registreerimisvorm</title>
     <link rel="stylesheet" href="ankeetStyle.css">
+    <script src="ankeetScript.js"></script>
 </head>
 <body>
 <h1>Õpilase registreerimisvorm</h1>
@@ -13,26 +14,30 @@
     <br>
     <label for="eesnimi">Eesnimi</label>
     <br>
-    <input type="text" name="eesnimi" id="eesnimi" placeholder="nt Savva" maxlength="30" required>
+    <input type="text" name="eesnimi" id="eesnimi" placeholder="nt Savva" maxlength="30" required oninput="nimeLug()">
+    <div id="vastus"></div>
     <br><br>
     <label for="perenimi">Perenimi</label>
     <br>
-    <input type="text" name="perenimi" id="perenimi" placeholder="nt Smirnyagin" maxlength="30" required>
+    <input type="text" name="perenimi" id="perenimi" placeholder="nt Smirnyagin" maxlength="30" required oninput="perenimeLug()">
+    <div id="vastus2"></div>
     <br><br>
     <label for="synd">Sünnikuupäev</label>
     <br>
-    <input type="date" name="synd" id="synd" min="1950-01-01" max="2025-12-31" value="1980-01-01" required>
+    <input type="date" name="synd" id="synd" min="1950-01-01" max="2025-12-31" value="1980-01-01" required oninput="sunniKuu()">
+    <div id="vastus3"></div>
     <br><br>
     <label>Sugu</label>
     <br>
-    <input type="radio" name="sugu" id="mees" required>
+    <input type="radio" name="sugu" id="mees" required onclick="radioValik()">
     <label for="mees">Mees</label>
     <br>
-    <input type="radio" name="sugu" id="naine" required>
+    <input type="radio" name="sugu" id="naine" required onclick="radioValik()">
     <label for="naine">Naine</label>
     <br>
-    <input type="radio" name="sugu" id="muu" required>
+    <input type="radio" name="sugu" id="muu" required onclick="radioValik()">
     <label for="muu">Muu</label>
+    <div id="vastus4"></div>
 </fieldset>
 <br>
 <fieldset>
@@ -40,7 +45,8 @@
     <br>
     <label for="email">E-post</label>
     <br>
-    <input type="email" name="email" id="email" placeholder="nt nimi@kool.ee" required maxlength="100">
+    <input type="email" name="email" id="email" placeholder="nt nimi@kool.ee" required maxlength="100" oninput="emailOn()">
+    <div id="vastus5"></div>
     <br><br>
     <label for="telefon">Telefon</label>
     <br>
@@ -106,12 +112,11 @@
 </fieldset>
     <br>
     <br>
-    <button type="submit">
-        Saada
-    </button>
-    <button type="reset">
+    <input type="button" onclick="saadaNupp()" value="Saada">
+    <button type="reset" onclick="puhasta()">
         Tühjenda
     </button>
+    <div id="vastus6"></div>
 </form>
 
 </body>
