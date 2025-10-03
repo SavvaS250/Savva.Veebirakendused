@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Muusika küsitlus</title>
+    <script src="muusikaScript.js"></script>
+    <link rel="stylesheet" href="muusikaStyle.css">
+</head>
+<body>
+<h1>Muusika küsitlus</h1>
+<form action="">
+    <fieldset>
+        <legend>Milliseid muusikuid/ansambleid sa tead?</legend>
+    <input type="checkbox" name="ansambel" id="the" value="The Beatles" onchange="valiAnsambel()">
+    <label for="the">The Beatles</label>
+    <br>
+    <input type="checkbox" name="ansambel" id="abba" value="ABBA" onchange="valiAnsambel()">
+    <label for="abba">ABBA</label>
+    <br>
+    <input type="checkbox" name="ansambel" id="system" value="System of a Down" onchange="valiAnsambel()">
+    <label for="system">System of a Down</label>
+    <br>
+    <input type="checkbox" name="ansambel" id="limp" value="Limp Bizkit" onchange="valiAnsambel()">
+    <label for="limp">Limp Bizkit</label>
+    <br>
+        <div id="vastus"></div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Mida arvad muusika kuulamisest koolis?</legend>
+        <textarea name="arvamus" id="arvamus" maxlength="200" oninput="arvamusLug()"></textarea>
+        <div id="vastus2"></div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Mitu tundi päevas sa kuulad muusikat?</legend>
+        <input type="number" name="tunnid" id="tunnid" oninput="tunnidPaevas()">
+        <div id="vastus3"></div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Kas sa kuulad raadiot?</legend>
+        <input type="radio" name="raadio" id="jah" value="Jah" onchange="jahEi()">
+        <label for="jah">Jah</label>
+        <br>
+        <input type="radio" name="raadio" id="ei" value="Ei" onchange="jahEi()">
+        <label for="ei">Ei</label>
+        <br>
+        <div id="vastus4"></div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Milliseid raadiojaamu oskad nimetada?</legend>
+        <input type="text" name="jaamad" id="jaamad" oninput="raadioJaamad()">
+        <div id="vastus5"></div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Millist muusikat sa kõige rohkem kuulad?</legend>
+        <input type="radio" name="millist" id="metal" value="Metal" onchange="valiMuusika()">
+        <label for="metal">Metal</label>
+        <br>
+        <input type="radio" name="millist" id="rock" value="Rock" onchange="valiMuusika()">
+        <label for="rock">Rock</label>
+        <br>
+        <input type="radio" name="millist" id="hip" value="Hip-Hop" onchange="valiMuusika()">
+        <label for="hip">Hip-Hop</label>
+        <br>
+        <input type="radio" name="millist" id="pop" value="Pop" onchange="valiMuusika()">
+        <label for="pop">Pop</label>
+        <br>
+        <input type="radio" name="millist" id="jazz" value="Jazz" onchange="valiMuusika()">
+        <label for="jazz">Jazz</label>
+        <br>
+        <input type="radio" name="millist" id="klassik" value="Klassikaline muusika" onchange="valiMuusika()">
+        <label for="klassik">Klassikaline muusika</label>
+        <br>
+        <div id="vastus6"></div>
+    </fieldset>
+    <br>
+    <br>
+    <input type="button" id="saada" onclick="saadaNupp()" value="Saada">
+    <button type="reset" onclick="puhasta()">
+        Tühjenda
+    </button>
+    <div id="vastus7"></div>
+</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+fieldset{
+    width: 30%;
+    padding: 10px;
+    color: white;
+}
+button{
+    background-color: red;
+}
+input#saada{
+    background-color: green;
+}
+body{
+    background-color: purple;
+}
+h1{
+    color: white;
+}
