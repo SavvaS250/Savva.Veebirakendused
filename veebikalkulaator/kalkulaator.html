@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Veebikalkulaator</title>
+    <script src="kalkulaatorScript.js"></script>
+    <link rel="stylesheet" href="kalkulaatorStyle.css">
+</head>
+<body>
+<h1>Veebikalkulaator</h1>
+<fieldset>
+    <legend>Pildid</legend>
+    <input type="radio" name="valik" id="v1" value="images/1.png">
+    <labeL for="v1">Ilus pilt 1</labeL>
+    <br>
+    <input type="radio" name="valik" id="v2" value="images/2.png">
+    <label for="v2">Ilus pilt 2</label>
+    <br>
+    <input type="radio" name="valik" id="v3" value="images/3.png">
+    <labeL for="v3">Ilus pilt 3</labeL>
+    <br>
+    <input type="radio" name="valik" id="v4" value="images/4.png">
+    <label for="v4">Ilus pilt 4</label>
+    <br>
+    <input type="radio" name="valik" id="v5" value="images/5.png">
+    <labeL for="v5">Ilus pilt 5</labeL>
+    <br>
+
+</fieldset>
+<br>
+<fieldset id="vali">
+    <legend>Vali kogus</legend>
+    <input type="number" name="kogus" id="kogus" min="1" max="100" value="0">
+</fieldset>
+<br>
+<input type="button" value="arvuta" onclick="arvutaPiltHind()">
+<h3>Summa kokku:</h3>
+<div id="vastus"></div>
+<img src="" alt="" id="pilt">
+</body>
+</html>
