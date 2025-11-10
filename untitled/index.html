@@ -54,7 +54,7 @@
     <h1>Savva veebirakenduste leht</h1>
 </header>
 <br>
-<button id="button2">Peida ja näita navigeerimis menüü</button>
+
 <nav>
     <ul>
         <li>
@@ -85,10 +85,7 @@
             <br>
             Enne kutsekooli ma lõpetasin Pelgulinna Gümnaasiumi
         </div>
-        <input type="button" value="paremale"
-               onclick="$('#mina').animate({'left':'500px'}, 1000);" />
-        <input type="button" value="vasakule"
-               onclick="$('#mina').animate({'left':'0px'}, 1000);" />
+
 
     </section>
 
@@ -103,27 +100,31 @@
         <br>
         <input type="button" value="Minu sünnipaevani" onclick="sunnipaev()">
         <div id="paevad"></div>
-        <br>
-        <button id="button1">Vajuta mind</button>
+
     </section>
 
     <section>
         <h3>jQuerty juhend</h3>
-        <div>Selleks, et jQuerty tööle hakkaks vajuta nuppe mis on lehel. Samuti võid liigutada pilti ja mõnet teksti.</div>
+        <div>Selleks, et jQuerty tööle hakkaks vajuta nuppe mis on selle teksti all. Samuti võid liigutada pilti ja mõnet teksti.</div>
+        <input type="button" value="paremale"
+               onclick="$('#mina').animate({'left':'500px'}, 1000);" />
+        <input type="button" value="vasakule"
+               onclick="$('#mina').animate({'left':'0px'}, 1000);" />
+        <input type="button" value="STOPP"
+               onclick="$('#mina, #pilt').animate({'left':'0px'}, 500);" />
+        <br>
+        <input type="button" value="peida"
+               onclick="$('#section1, #pilt, #koord').hide(2000);" />
+        <input type="button" value="näita"
+               onclick="$('#section1, #pilt, #koord').show(2000);" />
+        <br>
+        <button id="button1">Vajuta mind</button>
+        <br>
+        <button id="button2">Peida ja näita navigeerimis menüü</button>
     </section>
 </main>
 <img src="pall.jpg" alt="pall" id="pilt">
 <div id="koord"></div>
-<br>
-
-<input type="button" value="STOPP"
-       onclick="$('#mina, #pilt').animate({'left':'0px'}, 500);" />
-<input type="button" value="peida"
-       onclick="$('section, #pilt, #koord').hide(2000);" />
-<input type="button" value="näita"
-       onclick="$('section, #pilt, #koord').show(2000);" />
-
-
 
 <footer id="f1">
     &copy;Savva 2025
