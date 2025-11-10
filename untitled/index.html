@@ -9,13 +9,52 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="style.css">
     <script src="kuupaev.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js" integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=" crossorigin="anonymous"></script>
+
+    <script>
+        function purple(){
+            $('#mina, #haridus').css('color', 'purple');
+        }
+        function must(){
+            $('#mina, #haridus, #section1').css('color', 'black');
+        }
+
+       function koordinaadid(event, ui){
+            let koht = ui.offset;
+            $('#koord').html('x: ' + koht.left + '||| y: ' + koht.top);
+       }
+        function start(){
+            $('#mina').mouseenter(purple);
+            $('#mina').mouseleave(must);
+
+            $('#pilt').draggable();
+            $('#mina').draggable();
+            $('#pilt').bind("drag", koordinaadid); //näitab pildi koordinaadid
+        }
+
+        $(document).ready(function(){
+            $("#button2").click(function(){
+                $("nav").slideToggle();
+            });
+        });
+
+        $(document).ready(function(){
+            $("#button1").click(function(){
+                $("#section1").css("color", "purple").slideUp(700).slideDown(700);
+            });
+        });
+    </script>
+
 </head>
-<body>
+<body onload="start()">
 
 <!--HTML5 sematilised elemendid-->
 <header>
     <h1>Savva veebirakenduste leht</h1>
 </header>
+<br>
+<button id="button2">Peida ja näita navigeerimis menüü</button>
 <nav>
     <ul>
         <li>
@@ -33,19 +72,29 @@
         <li>
             <a href="meedia.html">Meedia</a>
         </li>
+        <li>
+            <a href="https://savvasmirnyagin24.thkit.ee/wp/">Wordpress</a>
+        </li>
     </ul>
 </nav>
 <main>
     <section>
-        <h3>Hariduskäik</h3>
-        <div>
+        <h3 id="haridus">Hariduskäik</h3>
+        <div id="mina">
             Praegu ma õpin Tallinna Tööstushariduskeskuses
             <br>
             Enne kutsekooli ma lõpetasin Pelgulinna Gümnaasiumi
         </div>
+        <input type="button" value="paremale"
+               onclick="$('#mina').animate({'left':'500px'}, 1000);" />
+        <input type="button" value="vasakule"
+               onclick="$('#mina').animate({'left':'0px'}, 1000);" />
 
     </section>
-    <section>
+
+
+
+    <section id="section1">
         <h3>Hobbyd</h3>
         <div>Sport, muusika kuulamine, arvuti mängud</div>
         <br>
@@ -54,9 +103,28 @@
         <br>
         <input type="button" value="Minu sünnipaevani" onclick="sunnipaev()">
         <div id="paevad"></div>
+        <br>
+        <button id="button1">Vajuta mind</button>
+    </section>
 
+    <section>
+        <h3>jQuerty juhend</h3>
+        <div>Selleks, et jQuerty tööle hakkaks vajuta nuppe mis on lehel. Samuti võid liigutada pilti ja mõnet teksti.</div>
     </section>
 </main>
+<img src="pall.jpg" alt="pall" id="pilt">
+<div id="koord"></div>
+<br>
+
+<input type="button" value="STOPP"
+       onclick="$('#mina, #pilt').animate({'left':'0px'}, 500);" />
+<input type="button" value="peida"
+       onclick="$('section, #pilt, #koord').hide(2000);" />
+<input type="button" value="näita"
+       onclick="$('section, #pilt, #koord').show(2000);" />
+
+
+
 <footer id="f1">
     &copy;Savva 2025
 </footer>

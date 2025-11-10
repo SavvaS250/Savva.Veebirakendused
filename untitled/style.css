@@ -178,7 +178,10 @@ section#kaart h3{
     padding: 2%;
 
 }
-
+div#kirjeldus{
+    position:relative;
+    left:0;
+}
 
 
 
